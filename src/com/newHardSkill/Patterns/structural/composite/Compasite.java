@@ -1,6 +1,6 @@
 package com.newHardSkill.Patterns.structural.composite;
 
-public class Project {
+public class Compasite {
     public static void main(String[] args) {
         Team team = new Team();
 
