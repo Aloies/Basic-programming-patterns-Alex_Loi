@@ -1,9 +1,8 @@
-package com.newHardSkill.Patterns.behavioral;
+package com.newHardSkill.Patterns.behavioral.template;
 
-public class WelcomePage  {
-    public void showPage(){
-        System.out.println("Header");
+public class WelcomePage extends WebsiteTemplate {
+    @Override
+    void showPageContent() {
         System.out.println("Welcome");
-        System.out.println("Footer");
     }
 }

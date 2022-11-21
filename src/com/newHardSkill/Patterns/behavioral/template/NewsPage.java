@@ -1,9 +1,9 @@
-package com.newHardSkill.Patterns.behavioral.strategy;
+package com.newHardSkill.Patterns.behavioral.template;
 
-public class NewsPage {
-    public void showPage(){
-        System.out.println("Header");
+public class NewsPage extends WebsiteTemplate {
+
+    @Override
+    void showPageContent() {
         System.out.println("News");
-        System.out.println("Footer");
     }
 }
